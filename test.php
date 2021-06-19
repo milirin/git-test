@@ -1,3 +1,5 @@
 <?php
 
-$name = 'Jack';
+function test() {
+    echo 'Hello';
+}
