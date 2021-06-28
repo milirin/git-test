@@ -5,7 +5,7 @@ class UserProfile{
   public int $age;
   public string $avatar;
 
-  public function __construct($name, $age, $avatar)
+  public function __construct(string $name, int $age, string $avatar)
   {
     $this->name = $name;
     $this->age = $age;
